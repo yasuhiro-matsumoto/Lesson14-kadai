@@ -127,9 +127,5 @@ public class Report {
 public void setGood_count(Integer good_count) {
         this.good_count = good_count;
     }
-public void goodPlus(Report y) {
-    int count = y.getGood_count();
-    count++;
-    y.setGood_count(count);
-}
+
 }
